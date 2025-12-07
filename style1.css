@@ -75,6 +75,7 @@ header nav a:hover{
 
 .hero h1 span{
     color: #1bb2b5;
+    
 }
 
 .hero p{
@@ -183,4 +184,79 @@ button:hover{
     color: #555;
     margin-left: 8px;
     font-size: 14px;
+}
+.review-card {
+    width: 280px;
+    border: 2px solid #d6f3f7;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    background: white;
+    box-shadow:#08979A
+}
+
+
+.profile {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+
+.quote {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 60px;
+    color: #ddd;
+}
+
+
+.review-card h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.review-card p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.4;
+}
+
+
+.stars {
+    margin-top: 10px;
+    color:#08979A;
+    font-size: 18px;
+}
+
+
+.title {
+    margin-top: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.reviews-container {
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+  
+    flex-wrap: nowrap;  
+    overflow-x: auto;   
+}
+
+
+.reviews-container::-webkit-scrollbar {
+    height: 8px;
+}
+.review-card:hover {
+    transform: scale(1.05);        
+    box-shadow: #08979A;  
+    transition: 0.3s ease;        
 }
